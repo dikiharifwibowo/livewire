@@ -22,7 +22,7 @@
         @livewireStyles
     </head>
     <body class="antialiased">
-         @livewire('hello-world')
+         @livewire('hello-world',['params' => 'John Doe'])
         @livewireScripts
     </body>
 </html>
